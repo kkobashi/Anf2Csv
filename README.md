@@ -1,10 +1,13 @@
 Synopsis
+====================================================================
   This is a Python script that will take a folder full of AnFutures CSV future files along with an index file and aggregate into one CSV file.
 
 Motivation
+===================================================================
   Every futures contract consist of 3 months of 1 minute data. With over 17 years worth of files (71 actually in my case), I needed a way to sort order by timestamp into one CSV file so that it could be imported into a database (either relational or time series).
 
 Requirements
+===================================================================
 - Python 3.x
 - Linux or Windows O/S
 
