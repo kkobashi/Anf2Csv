@@ -34,10 +34,10 @@ python anf2csv.py dirPath
 *dirPath is the path that points at the folder containing the AnFutures CSV and index.lst files*
 
 Based on the folder structure in the installation:
-'''
+```
 cd /anfutures/csv/1m
 python anf2csv.py .
-'''
+```
 
 #Performance Notes
 Windows 10 Home 64-bit
